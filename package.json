@@ -29,6 +29,7 @@
   "scripts": {
     "postinstall": "node dbSeed.js",
     "start": "node app.js",
-    "debug": "node-inspector --config ./inspector-config.json & node --debug app.js"
+    "debug": "node-inspector --config ./inspector-config.json & node --debug app.js",
+    "debug-brk": "node-inspector --config ./inspector-config.json & node --debug-brk app.js"
   }
 }
